@@ -1,2 +1,4 @@
 ﻿  000000_TEST_03_VS_2019.cpp
+C:\Users\Clinton\source\repos\000000_TEST_03_VS_2019\000000_TEST_03_VS_2019\state.h(87,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Clinton\source\repos\000000_TEST_03_VS_2019\000000_TEST_03_VS_2019\state.h(91,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   000000_TEST_03_VS_2019.vcxproj -> C:\Users\Clinton\source\repos\000000_TEST_03_VS_2019\Debug\000000_TEST_03_VS_2019.exe

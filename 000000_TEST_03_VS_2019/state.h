@@ -12,11 +12,11 @@ struct State
 
 std::ostream& operator<<  (std::ostream& os, State S) {
 	os << std::left << std::setw(15) << S.province_state
-		<< std::setw(30) << S.population
-		<< std::setw(30) << S.latitude
-		<< std::setw(30) << S.longitude
-		<< std::setw(30) << S.postal_code
-		<< std::setw(30) << S.fips;
+		<< std::setw(20) << S.population
+		<< std::setw(20) << S.latitude
+		<< std::setw(20) << S.longitude
+		<< std::setw(20) << S.postal_code
+		<< std::setw(10) << S.fips;
 	os << std::endl;
 	return os;
 }
@@ -60,7 +60,7 @@ std::list<State> extractStateRecordsFromCSVFileToList(const char* stateDataFile)
 	std::string covidUpdate_str;
 	getline(covidDataFileStream, covidUpdate_str);
 
-	char csvSeparatorChar = ',';
+	char csvSeparatorChar = ';';
 	std::list <State> stateList;
 
 	while (getline(covidDataFileStream, covidUpdate_str))

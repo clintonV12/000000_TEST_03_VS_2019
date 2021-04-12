@@ -142,6 +142,8 @@
     <ClCompile Include="000000_TEST_03_VS_2019.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="covidupdateUS.h" />
+    <ClInclude Include="state.h" />
     <ClInclude Include="utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
